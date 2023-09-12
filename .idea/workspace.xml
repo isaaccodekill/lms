@@ -12,6 +12,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="HARD" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -43,7 +44,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1694477001127</updated>
-      <workItem from="1694477002345" duration="2089000" />
+      <workItem from="1694477002345" duration="2504000" />
     </task>
     <servers />
   </component>
@@ -61,7 +62,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="lms-gateway-repo/main" />
+                        <option value="master" />
                       </list>
                     </value>
                   </entry>

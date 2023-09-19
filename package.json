@@ -1,0 +1,22 @@
+{
+  "name": "lms",
+  "version": "1.0.0",
+  "description": "lms monorepo",
+  "main": "index.js",
+  "repository": "https://github.com/isaaccodekill/lms.git",
+  "author": "isaaccodekill",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "./lms-common",
+    "./lms-gateway",
+    "./lms-iam"
+  ],
+  "dependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "scripts": {
+    "build:common": "tsc -p ./lms-common/tsconfig.json",
+    "watch:common": "nodemon"
+  }
+}

@@ -4,11 +4,37 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9cb92841-c57a-489c-b510-5848e25e6c16" name="Changes" comment="" />
+    <list default="true" id="9cb92841-c57a-489c-b510-5848e25e6c16" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/TechnicalDebt.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lms-common/constants/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lms-common/constants/packages.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lms-common/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lms-common/proto/iam.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lms-common/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lms-common/types/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nodemon.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lms-iam/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/lms-iam/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lms-iam/src/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lms-iam/src/iam.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lms-iam/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lms-iam/src/main.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lms-iam/src/users/dto/create-user.dto.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lms-iam/src/users/dto/update-user.dto.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lms-iam/src/users/entities/user.entity.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lms-iam/src/users/users.controller.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lms-iam/src/users/users.controller.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lms-iam/src/users/users.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lms-iam/src/users/users.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lms-iam/test/app.e2e-spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lms-iam/test/app.e2e-spec.ts" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -18,24 +44,98 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2VGz2r5zowp7FPm2X88wT4Z5LBM" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "/Users/isaacbello/Documents/code/projects/lms",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/isaacbello/Documents/code/projects/lms&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.standard&quot;: &quot;&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/Users/isaacbello/Documents/code/projects/lms/node_modules/typescript/lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/app" />
+    </key>
+  </component>
+  <component name="RunManager" selected="npm.start:dev">
+    <configuration name="build:common" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build:common" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="compile:proto (1)" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/lms-common/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="compile:proto" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="compile:proto" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/lms-iam/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="compile:proto" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="start:dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/lms-iam/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start:dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="watch:common" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="watch:common" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.start:dev" />
+        <item itemvalue="npm.watch:common" />
+        <item itemvalue="npm.build:common" />
+        <item itemvalue="npm.compile:proto (1)" />
+        <item itemvalue="npm.compile:proto" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -44,7 +144,10 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1694477001127</updated>
-      <workItem from="1694477002345" duration="2504000" />
+      <workItem from="1694477002345" duration="2706000" />
+      <workItem from="1694479721058" duration="10266000" />
+      <workItem from="1694702369722" duration="12026000" />
+      <workItem from="1695126738784" duration="308000" />
     </task>
     <servers />
   </component>

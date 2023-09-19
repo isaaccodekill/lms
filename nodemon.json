@@ -1,0 +1,6 @@
+{
+  "watch": ["./lms-common"],
+  "ext": "ts",
+  "ignore": ["./lms-common/dist"],
+  "exec": "npm run build:common"
+}

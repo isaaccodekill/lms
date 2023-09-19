@@ -5,24 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9cb92841-c57a-489c-b510-5848e25e6c16" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/TechnicalDebt.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lms-common/constants/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lms-common/constants/packages.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lms-common/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lms-common/proto/iam.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lms-common/tsconfig.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lms-common/types/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nodemon.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lms-iam/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/lms-iam/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lms-iam/src/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lms-iam/src/iam.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lms-iam/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lms-iam/src/main.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lms-iam/src/users/dto/create-user.dto.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lms-iam/src/users/dto/update-user.dto.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lms-iam/src/users/entities/user.entity.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lms-iam/src/users/users.controller.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lms-iam/src/users/users.controller.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lms-iam/src/users/users.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lms-iam/src/users/users.service.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lms-iam/test/app.e2e-spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lms-iam/test/app.e2e-spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -147,7 +131,7 @@
       <workItem from="1694477002345" duration="2706000" />
       <workItem from="1694479721058" duration="10266000" />
       <workItem from="1694702369722" duration="12026000" />
-      <workItem from="1695126738784" duration="308000" />
+      <workItem from="1695126738784" duration="1596000" />
     </task>
     <servers />
   </component>
